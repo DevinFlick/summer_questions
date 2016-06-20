@@ -138,4 +138,14 @@ Beginning: 6/16/16
 
 
 
+---
+Beginning: 6/20/16
+1. What would the following pieces of code do? Why?
+  <script src='js/bootstrap.js'></script>
+  <script src='js/jquery.js'></script>
 
+2. What would the following code produce?
+  <div class='row'>
+    <img class='col-md-6 col-sm-12' src='images/cheese.png'>
+    <div class='col-md-6 col-sm-12'> <h1> Hello!</h1></div>
+  </div>
