@@ -147,5 +147,32 @@ Beginning: 6/20/16
 2. What would the following code produce?
   <div class='row'>
     <img class='col-md-6 col-sm-12' src='images/cheese.png'>
-    <div class='col-md-6 col-sm-12'> <h1> Hello!</h1></div>
+    <div class='col-md-6 col-sm-12'>
+      <h1> Hello!</h1>
+    </div>
+
   </div>
+
+---
+Beginning: 6/27/16
+1. What would the following JavaScript/jQuery do?
+  var clickButton = $('#clicky');
+
+  clickButton.on('click', makeDing);
+  clickButton.css('background-color', red);
+
+2. What would the following JavaScript/jQuery do?
+  var counter = 1;
+  var countdown = setInterval(function(){
+      if(counter >= 10){
+        clearInterval(countdown);
+      }
+      console.log(counter);
+      counter += 1;
+  }, 1000);
+
+
+
+
+
+
