@@ -171,6 +171,28 @@ Beginning: 6/27/16
       counter += 1;
   }, 1000);
 
+---
+Beginning?: 6/29/16
+
+1. Write a for loop that prints the numbers 4 to 10.
+2. Let's pretend for a little bit. Your little brother (9 years old)
+   says that all of his really smart friends at school are talking all
+   about the DOM. He asks you to explain what the DOM is. Can you help
+   him? Remember, he is only 9 years old...
+   *Prompt*: The DOM is...
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
