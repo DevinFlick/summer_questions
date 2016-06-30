@@ -182,7 +182,27 @@ Beginning?: 6/29/16
    *Prompt*: The DOM is...
 
 
-
+---
+Beginning: 6/30/16
+1. Write a for loop that logs the numbers from 3 to 51, but only every
+   3rd number. For instance:
+    3, 6, 9, ... 48, 51
+2. The following is a JavaScript object, what would you say this object
+   'represents' in the real world? Why do you say that?
+   var x = {
+      shape: 'sphere',
+      oddNumbered: true,
+      color: ['yellow', 'white'],
+      roll: function(){},
+      spin: function(){},
+      bounce: function(){}
+     };
+3. There are a few errors in the following code. What are they?
+    var table = {
+        legs: 4;
+        color: brown,
+        fold: function{},
+      };
 
 
 
