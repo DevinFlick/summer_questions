@@ -204,11 +204,36 @@ Beginning: 6/30/16
         fold: function{},
       };
 
+---
+Beginning: 7/1/16
+1. Write a for loop that prints *double* the number from 17 to 38.
+
+2. Describe what you think each of the routes accomplish:
+  a. GET /posts/
+  b. GET /posts/:id
+  c. POST /posts/
+  d. PUT /posts/:id
+  e. DELETE /posts/:id
+
+3. What would you guess the following would accomplish?
+  GET /user/:id/friends
 
 
 
-
-
+---
+Beginning: 7/5/16
+1. What does the acronym CRUD stand for?
+2. What are the corresponding HTTP verbs for CRUD operations?
+3. What would be the appropriate data types for the following schema
+   fields?
+   var dog = {
+      name: ____,
+      breed: ____,
+      colors: _____,
+      id: ______,
+      age: ______,
+      isHouseBroken: _____,
+     }
 
 
 
