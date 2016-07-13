@@ -236,7 +236,34 @@ Beginning: 7/5/16
      }
 
 
+---
+Beginning: 7/13/16
+1. What is the difference between these pieces of code:
+    Piece 1:
+    angular.module('ngthings', []);
 
+    Piece 2:
+    angular.module('ngthings')
+
+
+
+2. The following code has a few errors. What are those errors?
+    (function(){
+      angular.module('ngbears', []);
+
+      angular.module('ngbears')
+              .factory('BearService', bearService);
+
+      BearService.$inject = [$http];
+
+      functon bearSercice('$http'){
+        console.log('a service for bears!');
+      }
+
+  })()
+
+3. What is the purpose of an Angular controller versus a service?
+   Comparse those as best you can.
 
 
 
