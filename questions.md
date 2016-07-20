@@ -266,6 +266,31 @@ Beginning: 7/13/16
    Comparse those as best you can.
 
 
+---
+Beginning: 7/20/16
+1. One of the following two routes will work... Which one will? Why will
+   the other one not?
+    **Code A**
+   server.get('/teddybear/:color, :type', function(req,res){
+     ...code...
+   });
+   **Code B**
+   server.get('/teddybear/:color,:type', function(req, res){
+     ...code...
+   });
+2. Describe, as best you can, the function of each of the three agile
+   roles:
+   - Scrum Master:
+   - Scrum Team:
+   - Product Owner:
+3. What do each of the following HTTP status codes mean? (See if you can
+   remember without the interwebs)
+   - 404
+   - 403
+   - 304
+   - 200
+   - 500
+
 
 
 
