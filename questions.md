@@ -291,6 +291,28 @@ Beginning: 7/20/16
    - 200
    - 500
 
+---
+Beginning: 7/21/16
+1. What does the following code accomplish?
+   //in thing.js
+   function thing(req, res, next){
+     console.log(req.method, req.headers);
+     if (req.method == 'GET'){
+        console.log(new Date());
+      }
+     next();
+    }
+2. What is the difference between the following two pieces of code?
+  **Code A**
+    server.use('/cheese', logger);
+  **Code B**
+    server.use(logger);
+
+3. What is the purpose of a Angular service?
+
+4. How long does a typical sprint last?
+
+
 
 
 
