@@ -312,7 +312,24 @@ Beginning: 7/21/16
 
 4. How long does a typical sprint last?
 
+---
+Beginning: 7/22/16
+1. What is the DRY principle?
 
+2. There are some errors in the following code. What are they?
+   (function(){
+    angular.modul('weather')
+            .controller('StuffController', StuffController);
+
+    StuffController.inject = ['scope'];
+
+    function StuffController($scope){
+      $scope.data = {
+        things = ['crowbar', 'screwdriver'];
+        'more' = 'chocolate'
+      };
+
+  )();
 
 
 
