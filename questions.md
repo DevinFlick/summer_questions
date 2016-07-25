@@ -331,6 +331,24 @@ Beginning: 7/22/16
 
   )();
 
+---
+Beginning 7/25/16
+1. Why are we using a service to store all of our data instead of
+   putting that information in a controller?
+2. Given the following endpoints, fill in the Angular service.
+    - GET /api/things
+    - POST /api/things
+    - GET /api/things/:id/users
+
+  (function(){
+    angular.module('ngAwesome')
+          .factory('ThingService', ThingService);
+
+    ...fill in the rest...
+  })();
+3. Write a for loop that logs the numbers 13 to 51.
+
+
 
 
 
