@@ -347,7 +347,9 @@ Beginning 7/25/16
     ...fill in the rest...
   })();
 3. Write a for loop that logs the numbers 13 to 51.
-
+  for(var i = 13; i < 52; i += 1){
+      console.log(i);
+    }
 
 
 
